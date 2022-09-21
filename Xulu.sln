@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xulu", "Xulu\Xulu.csproj", "{DD468358-40B0-4B1B-A51C-426DD87FE1AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C84A0363-6BD4-471F-9A81-BE318B0F1A3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DCEA976D-5378-4F33-85E3-1D44F8EA3F1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xulu.Test", "Xulu.Test\Xulu.Test.csproj", "{39CC9880-40F7-4A34-99C6-5F04FDCD8953}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD468358-40B0-4B1B-A51C-426DD87FE1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD468358-40B0-4B1B-A51C-426DD87FE1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD468358-40B0-4B1B-A51C-426DD87FE1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD468358-40B0-4B1B-A51C-426DD87FE1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CC9880-40F7-4A34-99C6-5F04FDCD8953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CC9880-40F7-4A34-99C6-5F04FDCD8953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CC9880-40F7-4A34-99C6-5F04FDCD8953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CC9880-40F7-4A34-99C6-5F04FDCD8953}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD468358-40B0-4B1B-A51C-426DD87FE1AA} = {C84A0363-6BD4-471F-9A81-BE318B0F1A3B}
+		{39CC9880-40F7-4A34-99C6-5F04FDCD8953} = {DCEA976D-5378-4F33-85E3-1D44F8EA3F1D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA470163-5CD1-4FE9-807C-428FFCF96745}
+	EndGlobalSection
+EndGlobal
